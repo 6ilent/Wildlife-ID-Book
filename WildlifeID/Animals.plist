@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Image</key>
+		<string>Jose Velasquez</string>
+		<key>Name</key>
+		<string>Jose Velasquez</string>
+		<key>ScientificName</key>
+		<string>Version: 1.0.0</string>
+		<key>Description</key>
+		<string>Programmed in Swift 5 for iOS 12 and up!</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Bald Eagle</string>
+		<key>Name</key>
+		<string>Bald Eagle</string>
+		<key>ScientificName</key>
+		<string>Haliaeetus leucocephalus</string>
+		<key>Description</key>
+		<string>White head as an adult. White &quot;paint splatter&quot; as a juvenile. Big beak.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Golden Eagle</string>
+		<key>Name</key>
+		<string>Golden Eagle</string>
+		<key>ScientificName</key>
+		<string>Aquila chrysaetos</string>
+		<key>Description</key>
+		<string>Crown of &quot;golden&quot; feathers around the head. Darkish brown feathers. Juveniles have white areas on the wings. Booted legs.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Red Tailed Hawk</string>
+		<key>Name</key>
+		<string>Red Tailed Hawk</string>
+		<key>ScientificName</key>
+		<string>Buteo jamaicensis</string>
+		<key>Description</key>
+		<string>Long rounded wings with a short broad tail. Red tail with a black band as an adult. Leading black edge on the wings and black band around the waist.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Northern Goshawk</string>
+		<key>Name</key>
+		<string>Northern Goshawk</string>
+		<key>ScientificName</key>
+		<string>Accipiter genitilis</string>
+		<key>Description</key>
+		<string>Three tail bands. Red eye in adults. White eyebrow. White underside with black bars (vertical bars on juveniles).</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Northern Harrier</string>
+		<key>Name</key>
+		<string>Northern Harrier</string>
+		<key>ScientificName</key>
+		<string>Circus cyaneus</string>
+		<key>Description</key>
+		<string>Long narrow wing. Long tail. Males have a blue/gray body. Only raptor with a facial disc. Pure white patch.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Osprey</string>
+		<key>Name</key>
+		<string>Osprey</string>
+		<key>ScientificName</key>
+		<string>Pandion haliaetus</string>
+		<key>Description</key>
+		<string>White head with brown stripe crossing the eye (ninja mask). Sharp angled wings during flight. Dark markings at the wrist.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>American Kestrel</string>
+		<key>Name</key>
+		<string>American Kestrel</string>
+		<key>ScientificName</key>
+		<string>Falco sparvarius</string>
+		<key>Description</key>
+		<string>Small head. Most colorful raptor. Long tapered wings. Long tail. Black eyes.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Peregrine Falcon</string>
+		<key>Name</key>
+		<string>Peregrine Falcon</string>
+		<key>ScientificName</key>
+		<string>Falco peregrinus</string>
+		<key>Description</key>
+		<string>Long toes with long sharp talons. Dark patches under the eye. Notched beak. Fastest animal (while in stoop).</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Turkey Vulture</string>
+		<key>Name</key>
+		<string>Turkey Vulture</string>
+		<key>ScientificName</key>
+		<string>Cathartes aura</string>
+		<key>Description</key>
+		<string>Black body. Red featherless head. Large nostrils. Uses scent to find prey.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Great Horned Owl</string>
+		<key>Name</key>
+		<string>Great Horned Owl</string>
+		<key>ScientificName</key>
+		<string>Bubo virginianus</string>
+		<key>Description</key>
+		<string>Large owl. Barring on the belly. Yellow eyes. White throat patch.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Burrowing Owl</string>
+		<key>Name</key>
+		<string>Burrowing Owl</string>
+		<key>ScientificName</key>
+		<string>Athene cunicularia</string>
+		<key>Description</key>
+		<string>Large sparsely legs. Round head with no ear tuff. White eyebrows. Bright yellow eyes.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Barn Owl</string>
+		<key>Name</key>
+		<string>Barn Owl</string>
+		<key>ScientificName</key>
+		<string>Tyto alba</string>
+		<key>Description</key>
+		<string>Large head. Small dark eyes. Long feathered legs. Heart shaped facial disc.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Mule Deer</string>
+		<key>Name</key>
+		<string>Mule Deer</string>
+		<key>ScientificName</key>
+		<string>Odocoileus hemionus</string>
+		<key>Description</key>
+		<string>Tails are white with black tip. Antlers are branched and forked. Large mule like ears.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>White Tail Deer</string>
+		<key>Name</key>
+		<string>White Tail Deer</string>
+		<key>ScientificName</key>
+		<string>Odocoileus virginianus</string>
+		<key>Description</key>
+		<string>Antlers have a single main beam. Tail is brown with white border and underside. Tail is lifted when alarmed.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Rocky Mountain Elk</string>
+		<key>Name</key>
+		<string>Rocky Mountain Elk</string>
+		<key>ScientificName</key>
+		<string>Cervus canadensis</string>
+		<key>Description</key>
+		<string>White rump. Upper pair of canines. Antlers have brow tines.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Moose</string>
+		<key>Name</key>
+		<string>Moose</string>
+		<key>ScientificName</key>
+		<string>Alces americanus</string>
+		<key>Description</key>
+		<string>Palmate antlers. Longs legs. Excellent smell.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Caribou</string>
+		<key>Name</key>
+		<string>Caribou</string>
+		<key>ScientificName</key>
+		<string>Rangifer tarandrus</string>
+		<key>Description</key>
+		<string>Curved antlers with many tined branches. Males and females have antlers. Foot pads.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Mountain Goat</string>
+		<key>Name</key>
+		<string>Mountain Goat</string>
+		<key>ScientificName</key>
+		<string>Oreamnos americanus</string>
+		<key>Description</key>
+		<string>All white. Dagger like horns. Hooves have a sharp outer rim. Stocky body. Short legs.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Bighorn Sheep</string>
+		<key>Name</key>
+		<string>Bighorn sheep</string>
+		<key>ScientificName</key>
+		<string>Ovis canadensis</string>
+		<key>Description</key>
+		<string>A big horn. Horns are &quot;C&quot; shaped. Ewes have short horns. Hooves have hard outer edges.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Bison</string>
+		<key>Name</key>
+		<string>Bison</string>
+		<key>ScientificName</key>
+		<string>Bos bison</string>
+		<key>Description</key>
+		<string>Horns on both sexes. Humped shoulder. Bulls are 5-6 feet. Horns are pointy.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Musk Oxen</string>
+		<key>Name</key>
+		<string>Musk Oxen</string>
+		<key>ScientificName</key>
+		<string>Ovibos moschatus</string>
+		<key>Description</key>
+		<string>They have a musky odor. Shaggy hair. Massive horns. Horns curved down to their head.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Pronghorn Antelope</string>
+		<key>Name</key>
+		<string>Pronghorn Antelope</string>
+		<key>ScientificName</key>
+		<string>Antilocapra americana</string>
+		<key>Description</key>
+		<string>Rump is white. Cheeks are white. Horns are pronged. Bucks have black gland patches.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Gray Wolf</string>
+		<key>Name</key>
+		<string>Gray Wolf</string>
+		<key>ScientificName</key>
+		<string>Canis lupus</string>
+		<key>Description</key>
+		<string>Largest wild dog. Large paws. Lots of color variation.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Red Wolf</string>
+		<key>Name</key>
+		<string>Red Wolf</string>
+		<key>ScientificName</key>
+		<string>Canis rufus</string>
+		<key>Description</key>
+		<string>Reddish brown coat. Smaller than the Gray Wolf. Long thick tail.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Coyote</string>
+		<key>Name</key>
+		<string>Coyote</string>
+		<key>ScientificName</key>
+		<string>Canis latrans</string>
+		<key>Description</key>
+		<string>1/3 the size of a wolf. Long narrow snout. Yellow eyes.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Red Fox</string>
+		<key>Name</key>
+		<string>Red Fox</string>
+		<key>ScientificName</key>
+		<string>Vulpes vulpes</string>
+		<key>Description</key>
+		<string>Red coat. White underside. Black &quot;socks&quot;. White tipped tail.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Kit Fox</string>
+		<key>Name</key>
+		<string>Kit Fox</string>
+		<key>ScientificName</key>
+		<string>Vulpes macrotis</string>
+		<key>Description</key>
+		<string>Large ears. Tan color. Black tipped tail. Very small.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Swift Fox</string>
+		<key>Name</key>
+		<string>Swift Fox</string>
+		<key>ScientificName</key>
+		<string>Vulpes velox</string>
+		<key>Description</key>
+		<string>Rounded head. Black spots on both sides of nose. Very fast.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Arctic Fox</string>
+		<key>Name</key>
+		<string>Arctic Fox</string>
+		<key>ScientificName</key>
+		<string>Vulpes lagopus</string>
+		<key>Description</key>
+		<string>Tail is long and bushy. White during winter. Dark colored in the summer. Bottom of feet are furred.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Gray Fox</string>
+		<key>Name</key>
+		<string>Gray Fox</string>
+		<key>ScientificName</key>
+		<string>Urocyon cinereoargenteus</string>
+		<key>Description</key>
+		<string>Parts of the body are orange. Rest is ash like. Small. Claws are long.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Mountain Lion</string>
+		<key>Name</key>
+		<string>Mountain Lion</string>
+		<key>ScientificName</key>
+		<string>Puma concolor</string>
+		<key>Description</key>
+		<string>One color. Utah&apos;s largest feline. Long tail. Lighter colored belly.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Bobcat</string>
+		<key>Name</key>
+		<string>Bobcat</string>
+		<key>ScientificName</key>
+		<string>Lynx rufus</string>
+		<key>Description</key>
+		<string>Tail is black on top. Tail has white on bottom. Short cheek tufts. Short ear tufts. Spotted fur when young.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Canada Lynx</string>
+		<key>Name</key>
+		<string>Canda Lynx</string>
+		<key>ScientificName</key>
+		<string>Lynx canadensis</string>
+		<key>Description</key>
+		<string>Long cheek tuft. Long ear tufts. Large paws. Silver-gray&apos;ish.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Black Bear</string>
+		<key>Name</key>
+		<string>Black Bear</string>
+		<key>ScientificName</key>
+		<string>Ursus americanus</string>
+		<key>Description</key>
+		<string>Vary&apos;s in color. Straight facial profile. Long straight nose. Large ears.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Brown Bear</string>
+		<key>Name</key>
+		<string>Brown Bear</string>
+		<key>ScientificName</key>
+		<string>Ursus arctos</string>
+		<key>Description</key>
+		<string>Colors can range from white to yellow to black. Shoulder hump. Long claws. Nose slightly turned upwards.</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>Polar Bear</string>
+		<key>Name</key>
+		<string>Polar Bear</string>
+		<key>ScientificName</key>
+		<string>Ursus maritimus</string>
+		<key>Description</key>
+		<string>Long body. Long neck. Large teeth. White fur.</string>
+	</dict>
+</array>
+</plist>
