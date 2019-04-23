@@ -13,10 +13,18 @@ private let reuseIdentifier = "Cell"
 class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var items = [[String:String]]()
+    var taxonomy = [[String:String]]()
     
-    func loadPlist() -> [[String:String]] {
+    func loadAnimals() -> [[String:String]] {
         
         let path = Bundle.main.path(forResource: "Animals", ofType: "plist")
+        
+        return NSArray.init(contentsOf: URL.init(fileURLWithPath: path!)) as! [[String:String]]
+    }
+    
+    func loadTaxonomy() -> [[String:String]] {
+        
+        let path = Bundle.main.path(forResource: "Taxonomy", ofType: "plist")
         
         return NSArray.init(contentsOf: URL.init(fileURLWithPath: path!)) as! [[String:String]]
     }
@@ -30,7 +38,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         // Register cell classes
 
         // Do any additional setup after loading the view.
-        self.items = loadPlist()
+        self.items = loadAnimals()
+        self.taxonomy = loadTaxonomy()
     }
 
     // MARK: - Navigation
@@ -45,12 +54,18 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             if let indexPath = self.collectionView?.indexPath(for: sender as! UICollectionViewCell) {
             
                 let item = self.items[indexPath.row]
+                let tax = self.taxonomy[indexPath.row]
                 
                 detail.sentImage = item["Image"]
                 detail.sentName = item["Name"]
-                detail.sentScientificName = "(" + item["ScientificName"]! + ")"
+                detail.sentScientificName = item["ScientificName"]
                 detail.sentDescription = item["Description"]
                 
+                detail.TaxK = tax["Kingdom"]
+                detail.TaxP = tax["Phylum"]
+                detail.TaxC = tax["Class"]
+                detail.TaxO = tax["Order"]
+                detail.TaxF = tax["Family"]
             }
         }
     }

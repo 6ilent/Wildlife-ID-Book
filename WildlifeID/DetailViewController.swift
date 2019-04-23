@@ -11,13 +11,25 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet var detailImageView: UIImageView!
     @IBOutlet var detailName: UILabel!
-    @IBOutlet var detailScientificName: UILabel!
+    @IBOutlet var detailScientificName: UIButton!
     @IBOutlet var detailDescription: UITextView!
+    
+    @IBAction func TaxonomyMessage(_ sender: UIButton) {
+        let TaxMess = UIAlertController(title: "Taxonomy", message: "Kingdom: \n\(TaxK!) \n\nPhylum: \n\(TaxP!) \n\nClass: \n\(TaxC!) \n\nOrder: \n\(TaxO!) \n\nFamily: \n\(TaxF!) \n\nGenus & Species: \n\(sentScientificName!)", preferredStyle: .alert)
+        TaxMess.addAction(UIAlertAction(title: "Close", style: .cancel, handler: nil))
+        self.present(TaxMess, animated: true, completion: nil)
+    }
     
     var sentImage: String!
     var sentName: String!
     var sentScientificName: String!
     var sentDescription: String!
+    
+    var TaxK: String!
+    var TaxP: String!
+    var TaxC: String!
+    var TaxO: String!
+    var TaxF: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,21 +40,10 @@ class DetailViewController: UIViewController {
         
         detailName.text = sentName
         self.navigationItem.title = sentName
-        
-        detailScientificName.text = sentScientificName
+    
+        detailScientificName.setTitle("(" + sentScientificName! + ")", for: .normal)
         
         detailDescription.text = sentDescription
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
